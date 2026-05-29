@@ -46,7 +46,7 @@ pipeline {
         stage('Docker Login') {
 
             environment {
-                DOCKER_CREDS = credentials('DockerHubCreds')
+                DOCKER_CREDS = credentials('DockerHubCReds')
             }
 
             steps {
